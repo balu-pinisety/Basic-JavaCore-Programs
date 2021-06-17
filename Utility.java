@@ -17,6 +17,14 @@ public class Utility {
 		return scan.nextInt();
 	}
 	/**
+	 * Scanning of User input which is char type
+	 * @return assigned Char
+	 */
+	public static char getUserChar() {
+		return scan.next().charAt(0);
+	}
+	
+	/**
 	 * Calling of random function
 	 * @return Double type Random value 
 	 */
@@ -58,5 +66,5 @@ public class Utility {
 	 */
 	public static int getRemainder(double dividend, double divisor) {
 		return (int) (dividend%divisor);
-	}
+	} 
 }
