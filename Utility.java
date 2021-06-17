@@ -23,6 +23,7 @@ public class Utility {
 	public static double getRandomDouble() {
 		return Math.random();
 	}
+	
 	/**
 	 * Calculates the Percentage Value
 	 * @param part, whole
@@ -32,7 +33,30 @@ public class Utility {
 		return part*100/whole;
 	}
 	
+	/**
+	 * Calculates the Power of number
+	 * @param number, power
+	 * @return Double type Power value
+	 */
 	public static double getPowerDouble(double number, double power) {
 		return Math.pow(number,power);
+	}
+	
+	/**
+	 * Calculates the Quotient of number
+	 * @param dividend, divisor
+	 * @return Integer type Quotient value
+	 */
+	public static int getQuotient(double dividend, double divisor) {
+		return (int) (dividend/divisor);
+	}
+	
+	/**
+	 * Calculates the Remainder of number
+	 * @param dividend, divisor
+	 * @return Integer type Remainder value
+	 */
+	public static int getReamiander(double dividend, double divisor) {
+		return (int) (dividend%divisor);
 	}
 }
