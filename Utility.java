@@ -31,4 +31,8 @@ public class Utility {
 	public static double getPercentageDouble (double part,double whole) {
 		return part*100/whole;
 	}
+	
+	public static double getPowerDouble(double number, double power) {
+		return Math.pow(number,power);
+	}
 }
