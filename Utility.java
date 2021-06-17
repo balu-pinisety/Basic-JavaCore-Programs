@@ -56,7 +56,7 @@ public class Utility {
 	 * @param dividend, divisor
 	 * @return Integer type Remainder value
 	 */
-	public static int getReamiander(double dividend, double divisor) {
+	public static int getRemainder(double dividend, double divisor) {
 		return (int) (dividend%divisor);
 	}
 }
